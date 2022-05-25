@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import BoredApi from './screens/BoredApi';
 import Home from './screens/Home';
 import ReactNativeTutorial from './screens/ReactNativeTutorial'
+import GenderizeApi from './screens/GenderizeApi';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -15,6 +16,7 @@ export default function App() {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Bored Api" component={BoredApi} />
         <Stack.Screen name="React Native Tutorial" component={ReactNativeTutorial} />
+        <Stack.Screen name="Genderize Api" component={GenderizeApi} />
       </Stack.Navigator>
     </NavigationContainer>
   )

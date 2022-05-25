@@ -15,6 +15,10 @@ export default function Home({ navigation }) {
             title="React Native Tutorial"
             onPress={() => navigation.navigate('React Native Tutorial')}
         />
+        <Button
+            title="Genderize Api"
+            onPress={() => navigation.navigate('Genderize Api')}
+        />
     </View>
   )
 }
